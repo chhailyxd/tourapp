@@ -19,7 +19,7 @@ const Test = () => {
   }, [TestData]);
 
   return (
-      <div>
+      <div style={{height: '50vh'}}>
         {data ? (
             <div>
             <p>{data.name}</p>
